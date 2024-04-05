@@ -1,13 +1,13 @@
 import { styled } from "@macaron-css/solid";
 import { FaRegularTrashCan } from "solid-icons/fa";
-import { type Component, For, createSignal, createEffect } from "solid-js";
+import { type Component, For, createEffect, createSignal } from "solid-js";
 
 import { isScrolledToBottom } from "../../lib/scroll";
 import toISOStringWithTimezone from "../../lib/toISOStringWithTimezone";
 import { logger, logs } from "../../lib/useLog";
 import { primitiveColors } from "../../theme/color";
 import { fontFamily } from "../../theme/font";
-import { type WindowData } from "../window/WindowContent";
+import type { WindowData } from "../window/WindowContent";
 
 export interface LogWindowData extends WindowData {
   type: "log";

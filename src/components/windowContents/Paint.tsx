@@ -5,18 +5,18 @@ import {
   FaSolidPencil,
 } from "solid-icons/fa";
 import {
-  onMount,
   type Component,
-  createSignal,
   createEffect,
+  createSignal,
   on,
+  onMount,
 } from "solid-js";
 
 import usePopup from "../../lib/usePopup";
 import { primitiveColors } from "../../theme/color";
 import UIButton from "../UI/UIButton";
 import UIColorInput from "../UI/UIColorInput";
-import { type WindowData } from "../window/WindowContent";
+import type { WindowData } from "../window/WindowContent";
 
 export interface PaintWindowData extends WindowData {
   type: "paint";

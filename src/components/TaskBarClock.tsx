@@ -1,5 +1,5 @@
 import { styled } from "@macaron-css/solid";
-import { type Component } from "solid-js";
+import type { Component } from "solid-js";
 
 import useClock from "../lib/useClock";
 

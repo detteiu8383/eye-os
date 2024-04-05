@@ -103,7 +103,7 @@ const WindowDataEditor = () => {
         link obs
         <UISelect
           onChange={(e) => {
-            const id = parseInt(e.target.value, 10);
+            const id = Number.parseInt(e.target.value, 10);
             setState(
               "windows",
               index(),

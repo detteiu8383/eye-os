@@ -1,6 +1,6 @@
 import { styled } from "@macaron-css/solid";
 import { FaSolidPlus } from "solid-icons/fa";
-import { type Component } from "solid-js";
+import type { Component } from "solid-js";
 
 import { useWindows } from "../contexts/useWindows";
 import generateWindowColor from "../lib/generateWindowColor";

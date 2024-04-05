@@ -3,8 +3,8 @@ import {
   createGlobalThemeContract,
 } from "@macaron-css/core";
 import { styled } from "@macaron-css/solid";
-import { createPicker, type EmojiPicker } from "picmo";
-import { onMount, type Component } from "solid-js";
+import { type EmojiPicker, createPicker } from "picmo";
+import { type Component, onMount } from "solid-js";
 
 import { primitiveColors, semanticColors } from "../../theme/color";
 import { fontFamily } from "../../theme/font";

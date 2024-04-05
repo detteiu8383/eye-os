@@ -1,5 +1,5 @@
 import { type ParentComponent, createContext, useContext } from "solid-js";
-import { type SetStoreFunction } from "solid-js/store";
+import type { SetStoreFunction } from "solid-js/store";
 
 import { createLocalStore } from "../lib/createLocalStore";
 

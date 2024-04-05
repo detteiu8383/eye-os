@@ -1,4 +1,4 @@
-import { type JSX, type Component, createMemo } from "solid-js";
+import { type Component, type JSX, createMemo } from "solid-js";
 
 import { primitiveColors } from "../theme/color";
 
@@ -60,13 +60,11 @@ const RoundSlider: Component<Props> = (props) => {
     props.setter(clip(radToValue(rad)));
   };
 
-  const handlePointerDown: JSX.EventHandlerUnion<
-    SVGPathElement,
-    PointerEvent
-  > = (e) => {
-    e.currentTarget.setPointerCapture(e.pointerId);
-    e.currentTarget.addEventListener("pointermove", onPointerMove);
-  };
+  const handlePointerDown: JSX.EventHandlerUnion<SVGPathElement, PointerEvent> =
+    (e) => {
+      e.currentTarget.setPointerCapture(e.pointerId);
+      e.currentTarget.addEventListener("pointermove", onPointerMove);
+    };
   const handlePointerUp: JSX.EventHandlerUnion<SVGPathElement, PointerEvent> = (
     e,
   ) => {

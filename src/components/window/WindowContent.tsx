@@ -2,6 +2,7 @@ import { type Component, ErrorBoundary } from "solid-js";
 import { Dynamic } from "solid-js/web";
 
 import { logger } from "../../lib/useLog";
+import { useWindow } from "../Windows";
 import Color, {
   defaultColorWindowData,
   type ColorWindowData,
@@ -30,7 +31,6 @@ import Stopwatch, {
   defaultStopwatchWindowData,
   type StopwatchWindowData,
 } from "../windowContents/Stopwatch";
-import { useWindow } from "../Windows";
 
 import ErrorScreen from "./ErrorScreen";
 

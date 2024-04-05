@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx --fix .",
-    "format": "prettier --write .",
+    "check": "biome check .",
+    "check:fix": "biome check --apply .",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -24,6 +24,7 @@
     "solid-js": "^1.8.16"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.6.4",
     "@types/chroma-js": "^2.4.4",
     "@types/prettier": "^3.0.0",
     "@typescript-eslint/eslint-plugin": "^7.5.0",

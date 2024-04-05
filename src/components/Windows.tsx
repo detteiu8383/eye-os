@@ -1,11 +1,11 @@
 import { styled } from "@macaron-css/solid";
-import { For, type Component, createContext, useContext } from "solid-js";
-import { type SetStoreFunction } from "solid-js/store";
+import { type Component, For, createContext, useContext } from "solid-js";
+import type { SetStoreFunction } from "solid-js/store";
 
 import {
   type WindowInfo,
-  useWindows,
   type WindowsContextState,
+  useWindows,
 } from "../contexts/useWindows";
 import useSceneItemIndex from "../lib/useSceneItemIndex";
 

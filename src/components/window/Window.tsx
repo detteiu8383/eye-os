@@ -8,7 +8,7 @@ import {
   FaSolidBars,
   FaSolidXmark,
 } from "solid-icons/fa";
-import { onMount, createEffect, type Component, Show } from "solid-js";
+import { type Component, Show, createEffect, onMount } from "solid-js";
 
 import { MAIN_SCENE_NAME } from "../../consts";
 import usePopup from "../../lib/usePopup";

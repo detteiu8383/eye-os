@@ -1,6 +1,6 @@
 import { styled } from "@macaron-css/solid";
 
-import { type WindowData } from "../window/WindowContent";
+import type { WindowData } from "../window/WindowContent";
 
 export interface EmptyWindowData extends WindowData {
   type: "empty";

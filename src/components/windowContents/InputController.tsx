@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 import { styled } from "@macaron-css/solid";
 import {
+  FaSolidLock,
+  FaSolidLockOpen,
   FaSolidVolumeHigh,
   FaSolidVolumeXmark,
-  FaSolidLockOpen,
-  FaSolidLock,
 } from "solid-icons/fa";
-import { Show, type Component, For, createSignal } from "solid-js";
+import { type Component, For, Show, createSignal } from "solid-js";
 
 import useInputList from "../../lib/useInputList";
 import useInputMuteState from "../../lib/useInputMuteState";
@@ -15,7 +15,7 @@ import { primitiveColors } from "../../theme/color";
 import CircularButton from "../CircularButton";
 import RoundSlider from "../RoundSlider";
 import ErrorScreen from "../window/ErrorScreen";
-import { type WindowData } from "../window/WindowContent";
+import type { WindowData } from "../window/WindowContent";
 
 export interface InputControllerWindowData extends WindowData {
   type: "inputController";

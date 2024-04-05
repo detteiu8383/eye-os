@@ -1,6 +1,6 @@
 import { styled } from "@macaron-css/solid";
 import { FaSolidTriangleExclamation } from "solid-icons/fa";
-import { type Component } from "solid-js";
+import type { Component } from "solid-js";
 
 import { primitiveColors } from "../../theme/color";
 

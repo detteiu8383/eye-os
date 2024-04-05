@@ -1,5 +1,5 @@
 import { styled } from "@macaron-css/solid";
-import { For, type Component } from "solid-js";
+import { type Component, For } from "solid-js";
 
 import { useWindows } from "../contexts/useWindows";
 import { primitiveColors, semanticColors } from "../theme/color";

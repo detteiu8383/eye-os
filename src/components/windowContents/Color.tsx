@@ -1,12 +1,12 @@
 import { styled } from "@macaron-css/solid";
-import { type Component } from "solid-js";
-import { type SetStoreFunction } from "solid-js/store";
+import type { Component } from "solid-js";
+import type { SetStoreFunction } from "solid-js/store";
 
-import { type WindowInfo } from "../../contexts/useWindows";
+import type { WindowInfo } from "../../contexts/useWindows";
 import usePopup from "../../lib/usePopup";
 import UIColorInput from "../UI/UIColorInput";
-import { type WindowData } from "../window/WindowContent";
 import { useWindow } from "../Windows";
+import type { WindowData } from "../window/WindowContent";
 
 export interface ColorWindowData extends WindowData {
   type: "color";

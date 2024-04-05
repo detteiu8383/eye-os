@@ -4,12 +4,12 @@ import {
   FaSolidPause,
   FaSolidPlay,
 } from "solid-icons/fa";
-import { Show, type Component } from "solid-js";
+import { type Component, Show } from "solid-js";
 
 import useStopWatch from "../../lib/useStopWatch";
 import { primitiveColors, semanticColors } from "../../theme/color";
 import CircularButton from "../CircularButton";
-import { type WindowData } from "../window/WindowContent";
+import type { WindowData } from "../window/WindowContent";
 
 export interface StopwatchWindowData extends WindowData {
   type: "stopwatch";

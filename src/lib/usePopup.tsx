@@ -1,18 +1,18 @@
 import {
-  offset,
+  type ReferenceElement,
   autoUpdate,
   flip,
+  offset,
   shift,
-  type ReferenceElement,
 } from "@floating-ui/dom";
 import { styled } from "@macaron-css/solid";
 import { useFloating } from "solid-floating-ui";
 import {
+  type ParentComponent,
+  Show,
   createSignal,
   onCleanup,
   onMount,
-  type ParentComponent,
-  Show,
 } from "solid-js";
 import { Portal } from "solid-js/web";
 

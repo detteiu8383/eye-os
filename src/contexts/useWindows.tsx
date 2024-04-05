@@ -1,7 +1,7 @@
-import { createContext, useContext, type ParentComponent } from "solid-js";
-import { produce, type SetStoreFunction } from "solid-js/store";
+import { type ParentComponent, createContext, useContext } from "solid-js";
+import { type SetStoreFunction, produce } from "solid-js/store";
 
-import { type WindowDataConcrete } from "../components/window/WindowContent";
+import type { WindowDataConcrete } from "../components/window/WindowContent";
 import { createLocalStore } from "../lib/createLocalStore";
 
 export type WindowInfo = {

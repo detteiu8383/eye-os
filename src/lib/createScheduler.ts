@@ -1,4 +1,4 @@
-import { type Accessor } from "solid-js";
+import type { Accessor } from "solid-js";
 
 type FN<Arguments extends unknown[], Return = void> = (
   ...args: Arguments

@@ -1,18 +1,18 @@
 import { styled } from "@macaron-css/solid";
 import {
-  FaSolidMinus,
-  FaSolidPlus,
   FaSolidAlignCenter,
   FaSolidAlignLeft,
+  FaSolidMinus,
+  FaSolidPlus,
 } from "solid-icons/fa";
 import { type Component, Show, onMount } from "solid-js";
-import { type SetStoreFunction } from "solid-js/store";
+import type { SetStoreFunction } from "solid-js/store";
 
-import { type WindowInfo } from "../../contexts/useWindows";
+import type { WindowInfo } from "../../contexts/useWindows";
 import { primitiveColors } from "../../theme/color";
 import { fontFamily } from "../../theme/font";
-import { type WindowData } from "../window/WindowContent";
 import { useWindow } from "../Windows";
+import type { WindowData } from "../window/WindowContent";
 
 type Alignment = "center" | "left";
 

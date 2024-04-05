@@ -1,6 +1,6 @@
 import { createEffect } from "solid-js";
 import { createStore } from "solid-js/store";
-import { type JsonObject } from "type-fest";
+import type { JsonObject } from "type-fest";
 
 import { useObsWebSocket } from "../contexts/useObsWebSocket";
 
